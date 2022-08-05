@@ -1,0 +1,59 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#zurag{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 500px;
+    border: 0.1px solid #000;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.zurag-div {
+    width: 100%;
+    height: 100%;
+    border: 00.1px solid #000;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.zurag-div img {
+    width: 50%;
+    height: auto;
+}
+.tailbar {
+    width: 100%;
+    height: 100%;
+    border-top: 0.1px solid #000;
+    padding: 1rem;
+    text-align: center;
+}
+.tailbar h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+.btn-tailbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-tailbar a {
+    margin-bottom: 2rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    font-size: 2rem;
+}
+.btn-tailbar a i {
+    font-size: 3rem;
+}
